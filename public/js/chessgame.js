@@ -67,7 +67,7 @@ const handleMove = (source, target) => {
 
 const getPieceUnicode = (piece) => {
     const unicodePieces = {
-        p: "♟",
+        p: "♙",
         r: "♜",
         n: "♞",
         b: "♝",
