@@ -73,12 +73,12 @@ const getPieceUnicode = (piece) => {
         b: "♝",
         q: "♛",
         k: "♚",
-        P: "♟",
-        R: "♜",
-        N: "♞",
-        B: "♝",
-        Q: "♛",
-        K: "♚"
+        P: "♙",
+        R: "♖",
+        N: "♘",
+        B: "♗",
+        Q: "♘",
+        K: "♔",
     }
     return unicodePieces[piece.type] || "";
 }
